@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Home-component {
+  background: url(./images/sf_image.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+  padding: 50px;
+  padding-top: 600px;
+  padding-bottom: 0;
+  padding-left: 150px;
+}
+
+.Store-Button-component{
+  height: 150px;
+  width: 200px;
+  margin:20px;
+  color:blue
+
+}
+
+.Store-Title{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: Blue;
+  font-weight: bold;
+}
+
+.Store-Link{
+  position: relative;
+  display: inline-block;
+}
