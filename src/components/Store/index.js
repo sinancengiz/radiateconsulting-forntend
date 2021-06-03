@@ -11,7 +11,7 @@ const Store = (props) =>{
   
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
-    // Update the document title using the browser API
+    // Update the database using the API
     let url = `https://afternoon-refuge-74969.herokuapp.com/stores/${storeId}/store_products`;
     fetch(url)
       .then(res => res.json())
@@ -39,7 +39,6 @@ const Store = (props) =>{
         )
     }
   }
-
  
   return(
     <div className='Store-component'>

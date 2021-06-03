@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Button } from 'react-bootstrap';
-import * as ROUTES from '../../constants/routes';
 import { useHistory } from "react-router-dom";
 import Product from "../Product"
 import tableImage from '../../images/table.png';
