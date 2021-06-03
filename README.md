@@ -6,7 +6,7 @@ This project is created for Radiate Consulting Skill Test.
 
 In the project directory, you can run:
 
-###npm install
+### `npm install`
 
 Installs the necessery dependencies
 
