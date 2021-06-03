@@ -1,4 +1,4 @@
-# Radiate Skill Test Front end 
+# Radiate Consulting Skill Test Frontend App 
 
 This project is created for Radiate Consulting Skill Test.
 
