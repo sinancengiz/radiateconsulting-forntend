@@ -27,7 +27,13 @@ code {
   width: 200px;
   margin:20px;
   color:blue
+}
 
+.Table-Button-component{
+  height: 200px;
+  width: 250px;
+  margin:20px;
+  
 }
 
 .Store-Title{
@@ -40,7 +46,61 @@ code {
   font-weight: bold;
 }
 
+.Table-Delete-Button{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: Blue;
+  font-weight: bold;
+}
+
+.Sell-Button{
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: Blue;
+  font-weight: bold;
+}
+
+.Buy-Button{
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+  color: Blue;
+  font-weight: bold;
+}
+
+.Product-Display{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+  text-align: center;
+}
+
+.product{
+  position: relative;
+  display: inline-block;
+}
+
 .Store-Link{
   position: relative;
   display: inline-block;
 }
+
+.Store-component {
+  background: url(./images/store_inside.jpg) no-repeat center center;
+  background-size: cover;
+  min-height: 600px;
+  padding: 50px;
+  padding-top: 600px;
+  padding-bottom: 0;
+  padding-left: 150px;
+}
+

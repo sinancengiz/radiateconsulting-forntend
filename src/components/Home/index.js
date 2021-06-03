@@ -8,7 +8,7 @@ import store_image from '../../images/store.jpg'
 const Home = (props) => {
   const [stores, setStores] = useState([]);
   const history = useHistory();
-
+  
   // Similar to componentDidMount and componentDidUpdate:
   useEffect(() => {
     // Update the document title using the browser API
@@ -33,9 +33,7 @@ const Home = (props) => {
   return(
       <div className='Home-component'>
         { show_stores }
-        { show_stores }
-        {stores.length < 4? <Button className="Store-Button-component" href={ROUTES.NEWSTOREFORM} variant="primary" ><p style={{paddingTop:50}}>Open New Store</p></Button>:null}
-        
+        {stores.length < 5? <Button className="Store-Button-component" href={ROUTES.NEWSTOREFORM} variant="primary" ><p style={{paddingTop:50}}>Open New Store</p></Button>:null}
       </div>
 )};
 
